@@ -45,8 +45,20 @@ python / python3 <filename>.py <method> <ip> <port> <time>
 python3 DosRunner.py --mode [mode] --host [host] --port [port] --secs [secs] --threads [threads] --connections [connections]
 ```
 
+####Converstion_v7_0.py
 
+This Script performs a DDoS attack on a specified target IP address and port by sending a large number of packets to overwhelm the target. It uses raw sockets to create IP and TCP headers and sends packets with a specified payload size.
 
+The script takes four command line arguments:
+
+    "-t" or "--target": the IP address of the target.
+    "-p" or "--port": the target port to attack.
+    "-d" or "--duration": the duration of the attack in seconds.
+    "-s" or "--size": the size of the payload in each packet.
+To Use This Script:
+```
+python Converstion_v7_0.py -t 192.168.1.1 -p 80 -d 60 -s 1024
+```
 ## Important Notes
 1. The scripts are beta version and still under development. 
 2. The scripts are not intended to be used for malicious purposes, illegal purposes, or any other purposes that are operate amy forbidden activity by law.
