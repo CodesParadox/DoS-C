@@ -1,0 +1,4 @@
+npm i colors
+npm i request
+sudo apt install -y chromium-browser
+npx playwright install-deps

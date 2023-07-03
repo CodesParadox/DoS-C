@@ -1,0 +1,10 @@
+--2022-11-17 09:23:40--  http://173.230.152.150/api.php?key=jNqc97XYQzyMYAKs4x3
+Connecting to 173.230.152.150:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'proxy.txt'
+
+proxy.txt                             [<=>                                                         ]       0  --.-KB/s               proxy.txt                             [ <=>                                                        ]      18  --.-KB/s    in 0s      
+
+2022-11-17 09:23:41 (912 KB/s) - 'proxy.txt' saved [18]
+

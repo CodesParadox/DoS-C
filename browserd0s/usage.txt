@@ -1,0 +1,3 @@
+node index.js https://captcha.brrsecurity.org/ 3600 TLSv1 100 15 GET 4 false proxy.txt 100
+node index.js https://captcha.brrsecurity.org/ 3600 TLSv2 100 15 GET 4 false proxy.txt 100
+node index.js https://captcha.brrsecurity.org/ 3600 TLSMixed 100 15 GET 4 false proxy.txt 100
