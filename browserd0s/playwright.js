@@ -99,7 +99,7 @@ const JSList = {
 		"navigations": 1,
 		"locate": "Check your browser..."
 	}, {
-		"name": "DDoS-Guard",
+		"JS2": "DDoS-Guard",
 		"navigations": 1,
 		"locate": "DDoS protection by DDos-Guard"
 	}, {
@@ -212,7 +212,7 @@ function solverInstance(args) {
 			if (JS2) {
 				log('(' + 'JSDetect'.green + `)` + ' Detected JS Challenge:' + `(${JS2.name})`.yellow);			
 
-				if (JS2.name == "VShield") {
+				if (JS2.name == "Ddos-guard") {
 					await page.mouse.move(randomIntFromInterval(0), randomIntFromInterval(100));
 					await page.mouse.down();
 					await page.mouse.move(randomIntFromInterval(0), randomIntFromInterval(100));
